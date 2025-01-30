@@ -8,11 +8,11 @@ int main() {
     printf("y_2: ");
     scanf("%lf", &y_2);
 
-    printf("y_1: ");
-    scanf("%lf", &y_1);
-    
     printf("\nx_2: ");
     scanf("%lf", &x_2);
+
+    printf("y_1: ");
+    scanf("%lf", &y_1);
 
     printf("x_1: ");
     scanf("%lf", &x_1);
@@ -21,18 +21,18 @@ int main() {
     double top, bottom = 0;
     
     top = y_2-y_1;
-    printf("\nTop of the fraction: %lf\n", top);
+    printf("\nTop of the fraction: %lg\n", top);
     
     bottom = x_2-x_1;
-    printf("Bottom of the fraction: %lf\n", bottom);
+    printf("Bottom of the fraction: %lg\n", bottom);
 
-    printf("Answer: %lf / %lf\n", top, bottom);
+    printf("Answer: %lg / %lg\n", top, bottom);
     
     double total = top/bottom;
     double yintercept = y_1 - (x_1 * total); // Gets y-intercept
     
-    printf("Possible simplified fraction: %lf", total);
-    printf("\nThe y-intercept is %lf", yintercept);
+    printf("Possible simplified fraction: %lg", total);
+    printf("\nThe y-intercept is %lg", yintercept);
     
     return 0;
 }
