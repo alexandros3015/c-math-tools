@@ -8,10 +8,10 @@ int main() {
     printf("y_2: ");
     scanf("%lf", &y_2);
 
-    printf("\nx_2: ");
+    printf("x_2: ");
     scanf("%lf", &x_2);
 
-    printf("y_1: ");
+    printf("\ny_1: ");
     scanf("%lf", &y_1);
 
     printf("x_1: ");
